@@ -1,0 +1,105 @@
+body{
+  background-color:  #A5B6EE;
+  text-align: center;
+
+  
+}
+header{
+  margin-top: 180px;
+}
+header img{
+  width:244px;
+  
+  
+}
+.timer{
+  margin:60px auto;
+  box-sizing: border-box;
+  padding:48px 44px 40px 44px;
+  width:400px;
+  height:360px;
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+  background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+}
+.timer-tit{
+  color:#fff;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+.timer-tit::after{
+  display:block;
+  content:"";
+  margin-top:23px;
+  width: 312px;
+  height: 1px;
+  background: #3D538A;
+}
+.timer-box-container{
+  display:flex;
+  gap:22px;
+  justify-content: center;
+  margin-top: 33px;
+}
+.timer-box-container span{
+ color:#A5B6EE;
+ font-size:12px;
+}
+.timer-box-container .hour-box::after,
+.timer-box-container .min::after,
+.timer-box-container .sec::after{
+
+}
+.timer-box-container .hour-box,
+.timer-box-container .min-box,
+.timer-box-container .sec-box{
+  background: url('../image/box.png');
+  width:80px;
+  height:80px;
+  box-sizing: border-box;
+  padding:16px 14px;
+  margin-top:4px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color:#fff;
+  border:0;
+}
+::placeholder { 
+  color: #fff;
+}
+.start,.reset{
+  position:relative;
+  width:112px;
+  height: 48px;
+  background-color: #324577;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  padding: 15px 23px 15px 40px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color:#617199;
+  border:none;
+}
+.start{
+  content:"";
+  position:relative;
+  z-index:99;
+  background: url('../image/icon-start_b.png') no-repeat 15px ;
+  background-color: #324577;
+}
+.reset{
+  background: url('../image/icon-reset_b.png') no-repeat 15px;
+  background-color: #324577;
+}
+
