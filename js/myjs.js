@@ -9,7 +9,11 @@ const minvalue = min.value;
 const secvalue = sec.value;
 
 btnStart.addEventListener('click',function(){
-  
+ // setTimeout((),parseInt(sec.value)*1000);
+ btnStart.style.backgroundColor= '#5180FF';
+ btnReset.style.backgroundColor='#FB7099';
+ btnStart.style.color='#fff';
+ btnReset.style.color='#fff';
 })
 btnReset.addEventListener('click',function(){
   hour.value = "00";
