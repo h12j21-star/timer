@@ -14,26 +14,31 @@
         <img src="./image/weniv-logo.png" alt="위니브로고" />
       </h1>
     </header>
-    <article class="timer">
-      <h2 class="timer-tit">TIMER</h2>
-      <div class="timer-box-container">
-        <div class="hour">
-          <span>HRS</span>
-          <input type="text" class="hour-box" placeholder="00" />
+    <main>
+      <article class="timer">
+        <h2 class="timer-tit">TIMER</h2>
+        <div class="timer-box-container">
+          <label class="hour"
+            >HRS
+            <input type="text" class="hour-box" value="00" />
+          </label>
+          <label class="min"
+            >MIN
+            <input type="text" class="min-box" value="00" />
+          </label>
+          <label class="sec"
+            >SEC
+            <input type="text" class="sec-box" value="00" />
+          </label>
         </div>
-        <div class="min">
-          <span>MIN</span>
-          <input type="text" class="min-box" placeholder="00" />
+        <div>
+          <button type="button" class="start">START</button>
+          <button type="button" class="pause" hidden>PAUSE</button>
+          <button type="button" class="reset">RESET</button>
         </div>
-        <div class="sec">
-          <span>SEC</span>
-          <input type="text" class="sec-box" placeholder="00" />
-        </div>
-      </div>
-      <button class="start" s>START</button>
-      <button class="reset">RESET</button>
-    </article>
+      </article>
+    </main>
     <footer></footer>
-    <script src="./js/myjs.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

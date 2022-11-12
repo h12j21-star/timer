@@ -75,7 +75,7 @@ header img{
 ::placeholder { 
   color: #fff;
 }
-.start,.reset{
+.start,.reset,.pause{
   position:relative;
   width:112px;
   height: 48px;
@@ -90,16 +90,5 @@ header img{
   line-height: 17px;
   color:#617199;
   border:none;
-}
-.start{
-  content:"";
-  position:relative;
-  z-index:99;
-  background: url('../image/icon-start_b.png') no-repeat 15px ;
-  background-color: #324577;
-}
-.reset{
-  background: url('../image/icon-reset_b.png') no-repeat 15px;
-  background-color: #324577;
 }
 
